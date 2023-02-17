@@ -76,7 +76,7 @@ const CompanyPage = ({ name }) => {
             <div className="w-full p-10 mt-6 rounded-lg bg-neutral-100">
               <img
                 src={company.fullSizeImg}
-                className="rounded-md shadow filter"
+                className="rounded shadow filter"
               />
             </div>
           </div>
