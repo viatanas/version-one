@@ -34,7 +34,7 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="The First Version of Your Favorite Digital Products."
+          content="This project aims to remind us and others that in the beginning making the first step is more important than chasing perfection."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
