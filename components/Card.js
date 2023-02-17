@@ -1,9 +1,9 @@
 import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 
-const Card = ({ name, year, url, previewImg }) => {
+const Card = ({ name, year, id, previewImg }) => {
   return (
     <div className="flex flex-col">
-      <a target="_blank" href={url} className="w-full overflow-hidden h-52">
+      <a href={`/company/${id}`} className="w-full overflow-hidden h-52">
         <img
           src={previewImg}
           className="h-full border rounded border-neutral-200"
@@ -14,14 +14,13 @@ const Card = ({ name, year, url, previewImg }) => {
           {name}
         </span>
         <a
-          target="_blank"
-          href={url}
+          href={`/company/${id}`}
           className="flex items-center justify-center h-6 px-2 space-x-1 border rounded-lg border-neutral-200 group hover:border-gray-300"
         >
           <span className="text-sm font-normal font-inter text-neutral-500 group-hover:text-neutral-700">
             View
           </span>
-          <ArrowUpRightIcon className="hidden w-3 h-3 text-neutral-900 group-hover:flex" />
+          <ArrowUpRightIcon className="flex w-3 h-3 lg:hidden text-neutral-500 lg:text-neutral-900 group-hover:flex" />
         </a>
       </div>
       <div className="flex items-center mt-1 space-x-1 text-sm font-normal font-inter text-neutral-400">
