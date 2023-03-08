@@ -27,15 +27,35 @@ const CompanyPage = ({ name }) => {
   return (
     <>
       <Head>
-        <title>
-          Version One - The First Version of Your Favorite Digital Products.
-        </title>
+        {/* HTML Meta Tags */}
+        <title>Version One</title>
         <meta
           name="description"
-          content="This project aims to remind us and others that in the beginning making the first step is more important than chasing perfection."
+          content="The first version of your favorite digital products."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+
+        {/* Facebook Meta Tags */}
+        <meta name="og:url" content="https://www.theversionone.com/" />
+        <meta name="og:type" content="website" />
+        <meta name="og:title" content="Version One" />
+        <meta
+          name="og:description"
+          content="The first version of your favorite digital products."
+        />
+        <meta name="og:image" content="/og.png" />
+
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:domain" content="versionone.com" />
+        <meta name="twitter:url" content="https://www.theversionone.com/" />
+        <meta name="twitter:title" content="Version One" />
+        <meta
+          name="twitter:description"
+          content="The first version of your favorite digital products."
+        />
+        <meta name="twitter:image:src" content="/og.png" />
       </Head>
       <main className="w-full h-auto px-4 lg:px-0">
         <a
