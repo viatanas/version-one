@@ -37,7 +37,7 @@ const CompanyPage = ({ name }) => {
         <link rel="icon" href="/favicon.ico" />
 
         {/* Facebook Meta Tags */}
-        <meta name="og:url" content="https://www.theversionone.com/" />
+        <meta name="og:url" content="https://theversionone.com/" />
         <meta name="og:type" content="website" />
         <meta name="og:title" content="Version One" />
         <meta
@@ -49,7 +49,7 @@ const CompanyPage = ({ name }) => {
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:domain" content="versionone.com" />
-        <meta name="twitter:url" content="https://www.theversionone.com/" />
+        <meta name="twitter:url" content="theversionone.com" />
         <meta name="twitter:title" content="Version One" />
         <meta
           name="twitter:description"
