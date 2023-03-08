@@ -55,7 +55,7 @@ export default function Home() {
           <div className="w-full max-w-6xl mx-auto">
             <div className="flex items-center space-x-2">
               <span className="text-xs font-normal lowercase font-inter text-neutral-500">
-                a project by
+                a side project by
               </span>
               <a
                 target="_blank"
